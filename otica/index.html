@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Grau de Lente</title>
+   <link rel="stylesheet" href="desgni.css">
+</head>
+
+<body>
+   <div class="container">
+    <h1>Calculadora de Grau de Lente</h1>
+
+    <p>Digite o tamanho do aro </p>
+    <input id="A" type="number"/><br>
+
+    <p>Digite o tamanho da ponte </p>
+    <input id="P" type="number"/><br>
+
+    <p>Digite a diagonal maior</p>
+    <input id="D" type="number"/><br>
+
+    <p>Digite a distância naso-pupilar</p>
+    <input id="Dnp" type="number"/><br>
+    
+    <br><button onclick="equacao()">calcular</button>
+  
+    <br><h3>O diametro foi:</h3> <span id="resultado"></span>
+
+    <script src="logica.js"></script>
+</div>
+  
+</body>
+</html>
